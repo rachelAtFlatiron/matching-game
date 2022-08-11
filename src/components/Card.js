@@ -1,8 +1,7 @@
 import React from 'react'
 
-export default function Card({ word, handleClick, color }) {
-  console.log(color)
+export default function Card({ word }) {
   return (
-    <p className="card" onClick={handleClick} style={{color: color}}>{ word }</p>
+    <p className="card" >{ word }</p>
   )
 }
